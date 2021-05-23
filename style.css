@@ -1,0 +1,77 @@
+
+
+@font-face {
+    font-family:quicksand;
+    src: url(font/Quicksand-Medium.ttf);
+}
+
+* {box-sizing: border-box; margin: 0px; padding:0px;
+}
+
+.header{ width: 100%; height:80px; 
+    display: block; 
+    background-color: rgb(209, 209, 209, 0.8); 
+    margin: 0px; padding: 0px; 
+    position: fixed; 
+    }
+
+#logo{ cursor:pointer;
+    height: 50px;  float: left;
+     top: 50%; 
+     transform: translateY(-50%);
+    position: absolute;
+margin-left: 70px;
+}
+    
+
+
+
+
+.navs{ float: right;
+  position: absolute;
+ 
+    top: 50%;
+     transform: translateY(-50%);
+    align-items: center;
+    list-style:none;  
+    width: 100%;
+    
+    text-align: center;
+  }
+
+.navs li{ 
+    
+     display: inline;
+     float: right;
+    font-family: quicksand; font-size: 16px;  text-align: center;
+   
+     margin-right: 20px; padding: 15px; 
+     }
+
+.list{margin-right: 70px;}
+
+
+
+.navs li a:link{color: rgb(102, 0, 51); text-decoration: none; }
+
+.navs li a:visited {color: rgba(102, 0, 51);}
+
+.navs li a:hover {color: rgb(255, 255, 255); }
+
+
+
+.home{font-family: quicksand;}
+
+.home_hello{ margin-top:515px; margin-left:70px ; font-size: 35px;
+     position: absolute;}
+
+.home_name{margin-top:557px; margin-left:70px ; font-size: 50px;
+    position: absolute;}
+
+    #justname{color:rgb(102, 0, 51); font-weight: 500px;}
+
+    .home_id{margin-top:623px; margin-left:70px ; font-size: 25px;
+        position: absolute;}
+
+.image{margin:0px;}
+

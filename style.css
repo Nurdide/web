@@ -1,0 +1,288 @@
+
+
+@font-face {
+    font-family:quicksand;
+    src: url(font/Quicksand-Medium.ttf);
+}
+
+* {box-sizing: border-box; margin: 0px; padding:0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header{ width: 100%; height:80px; 
+    font-family: quicksand; font-size: 16px; 
+   backdrop-filter: blur(3px);
+    background-color: rgba(255, 255, 255, 0.1); 
+    margin: 0px; padding: 0px; 
+    position: fixed; 
+    z-index: 1;
+    transition: all ease-out .5s;
+    }
+
+.active {      
+     width: 100%; height:80px; 
+      font-family: quicksand; font-size: 16px; 
+     backdrop-filter: blur(3px);
+     background-color: rgba(255, 255, 255);
+      margin: 0px; padding: 0px; 
+      position: fixed; 
+      transition: all ease-out .5s;
+     
+}
+
+
+#logo{ cursor: pointer;
+      height: 50px;  float: left;
+     top: 50%; 
+     transform: translateY(-50%);
+    position: absolute;
+margin-left: 90px;
+}
+    
+
+.navs{ float: right;
+  position: absolute;
+ 
+    top: 50%;
+     transform: translateY(-50%);
+    align-items: center;
+    list-style:none;  
+    width: 100%;
+    
+    text-align: center;
+  }
+
+.navs li{ 
+    
+     display: inline;
+     float: right;
+    font-family: quicksand; font-size: 16px;  
+    text-align: center;
+   
+     margin-right: 20px; padding: 15px; 
+     }
+
+.list{margin-right: 90px;}
+
+
+
+.navs li a:link{color: rgb(102, 0, 51); text-decoration: none; }
+
+.navs li a:visited {color: rgba(102, 0, 51);}
+
+#contact a:hover {color: rgb(86, 151, 209); }
+
+#projects a:hover {color: rgb(237, 208, 126); }
+
+#about a:hover {color: rgb(134, 105, 192); }
+
+#home a:hover {color: rgb(51, 172, 105); }
+
+
+.home{font-family: quicksand;
+}
+
+.home_hello{ margin-top:497px; 
+  margin-left:90px ; 
+  font-size: 35px;
+     position: absolute;}
+
+.home_name{margin-top:539px; 
+  margin-left:90px;
+   font-size: 50px;
+    position: absolute;}
+
+    #justname{color:rgb(102, 0, 51); 
+      font-weight: 500px;}
+      
+      .home_id{margin-top:605px; 
+        margin-left:90px ; 
+        font-size: 25px;
+          position: absolute;}
+
+      #scroll {position: absolute;
+     height: 3%;
+    right:52%;
+  top: 95%;
+animation-duration: 0.5s;
+    animation-iteration-count: infinite;}
+
+    #scroll:hover {
+      animation-name: bounce;
+      animation-timing-function: ease;
+  }
+
+  @keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-10px); }
+    100% { transform: translateY(0); } }
+
+
+  #come {position: absolute;
+    font-size: 15px;
+    right: 49.5%;
+ top: 91%;}
+
+  
+
+.parallaximg {
+
+  background-image: url("fotos/mypictu.jpg");
+  min-height: 755px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box {height:1000px;background-color:white; }
+
+.headerandpics { margin-top: 180px; 
+  margin-left: 90px; 
+  font-family: quicksand; font-size: 19px;
+ }
+
+.intro{ width: 520px;
+   margin-left:90px ; margin-top:35px; 
+   font-family: quicksand; font-size: 17px;
+}
+
+#intro2 { margin-top: 35px;
+}
+
+.sites { width: 7%; 
+ display: grid;
+ grid-template-columns: repeat(3,1fr); 
+ margin-top: 60px;
+margin-left:90px ;
+grid-gap:20px;
+}
+
+
+
+.pics {   width:55%;
+  height: 400px;
+  display:grid;
+  margin-right: 90px;
+  grid-template-columns: repeat(4,1fr);  
+  float: right; 
+}
+
+
+#truva, #versaille, #jury, #chair, #yesil, #sarı, #mavi, #bordo, #hat, #mor {grid-row:1/2;}
+
+
+#truva {width: 27%; 
+  float: right; 
+  margin-top: 20px;
+  margin-left: 260px;;
+grid-column: 1/4;
+border-radius: 4px;}
+
+#truva:hover {
+  transform: scale(1.1); }
+
+#sarı {height:24%;
+  float: right; 
+  margin-top: 65px;
+  margin-left: 305px;;
+grid-column: 1/4;
+}
+
+#versaille {width: 27%; 
+  float: right; 
+margin-left: 115px;
+margin-top: 33px;
+  grid-column: 1/4;
+  border-radius: 4px;}
+
+  #versaille:hover {
+    transform: scale(1.1);}
+
+  #yesil {width: 30%;
+     float: right; 
+    margin-left:130px;
+      grid-column: 1/4;
+      border-radius: 4px;}
+
+
+#jury {width: 30%;
+   float: right; 
+ margin-left: 370px;
+margin-top: 190px;
+  grid-column: 1/4;
+  border-radius: 4px;} 
+
+  #jury:hover {
+    transform: scale(1.1);}
+
+  #mavi {width: 28%;
+  float: right; 
+  margin-left: 430px;
+ margin-top: 153px;
+   grid-column: 1/4;
+}
+
+  
+  #chair {width: 20%;
+    float: right; 
+  margin-left: 170px;
+ margin-top: 190px;
+   grid-column: 1/4;
+   border-radius: 4px;} 
+
+   #chair:hover {
+    transform: scale(1.1);}
+
+   #bordo {
+    height: 22%;
+    float: right; 
+  margin-left: 195px;
+ margin-top: 185px;
+   grid-column: 1/4;
+   } 
+
+  
+
+   #hat { width:17%;
+    float: right; 
+  margin-left: 530px;
+ margin-top: 42px;
+   grid-column: 1/4;
+   border-radius: 4px;} 
+
+   #hat:hover {
+    transform: scale(1.1);}
+
+   #mor { width:20%;
+    float: right; 
+  margin-left: 540px;
+ margin-top: 58px;
+   grid-column: 1/4;} 
+
+
+.expandedu {
+   font-family: quicksand; 
+  margin-top: 200px;
+  margin-left: 90px;
+margin-right: 90px;
+   display: grid; 
+   grid-template-columns: repeat(2,1fr);
+}
+ .geodo, .kural, .radyo, .industrialdesign, .business, .highschool {
+   /* border: blue 5px solid; */
+    margin-top: 30px;
+margin-right: 90px;}
+
+.exp1, .exp2, .exp3, .edu1, .edu2, .edu3 { 
+  margin-top: 8px;}
+
+.exp1-date, .exp2-date, .exp3-date, .edu1-date, .edu2-date, .edu3-date  {float: right; }
+
+h3 {color: rgb(102, 0, 51);}
+
+
+

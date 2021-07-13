@@ -1,0 +1,1198 @@
+@font-face {
+    font-family:quicksand;
+    src: url(font/Quicksand-Medium.ttf);
+}
+
+* {box-sizing: border-box; margin: 0px; padding:0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {background-color:  rgb(253, 251, 251);
+}
+
+
+
+
+
+ .header{ width: 100%; height:10%;     
+    font-family: quicksand; font-size: 10%; 
+   backdrop-filter: blur(3px);
+   background-color: rgb(253, 251, 251);
+   box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+    margin: 0px; padding: 0px; 
+    position: fixed; 
+z-index: 1;
+    transition: all ease-out .5s;
+    }
+
+
+#logo{ height: 60%;
+margin-left: 6%;
+top: 50%;
+transform: translateY(-50%);
+position: absolute; 
+z-index: 1;
+}
+  
+  
+.navs{ float: right;
+    position: absolute;
+   
+      top: 50%;
+       transform: translateY(-50%);
+      align-items: center;
+      list-style:none;  
+      width: 100%;
+      
+      text-align: center;}
+   
+
+
+  .navs li{ 
+      
+       display: inline;
+
+      font-family: quicksand; font-size: 25px;  
+      text-align: center;
+      padding-right: 8%; 
+      text-decoration: none;}
+  
+  .list{ 
+      margin-left: 10%;
+    margin-right: 2%; padding: 10%; 
+      margin-right: 4%;
+   }
+  
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+#header_gig a, a:visited { text-decoration: none;
+    color: rgb(223, 111, 60);}
+
+    #header_ditto_ditto a,  a:visited { text-decoration: none;
+      color: rgb(51, 172, 105);}
+
+      #header_vivor_vivor a,  a:visited { text-decoration: none;
+        color: rgb(134, 105, 192);}
+
+
+        #header_yogamigo_yogamigo a, a:visited { text-decoration: none;
+          color: rgb(237, 208, 126);}
+
+          #header_graph_graph a, a:visited { text-decoration: none;
+            color: rgb(86, 151, 209);}
+          
+
+
+
+  #header_yogamigo a,  #header_ditto a,   #header_vivor a,   #header_graph a,
+   #header_yogamigo_ditto a,  #header_vivor_ditto a,  #header_graph_ditto a,  #header_gig_ditto a,
+   #header_yogamigo_vivor a,  #header_ditto_vivor a,  #header_graph_vivor a,  #header_gig_vivor a,
+   #header_vivor_yogamigo a,  #header_ditto_yogamigo a,  #header_graph_yogamigo a,  #header_gig_yogamigo a,
+  #header_vivor_graph a,  #header_ditto_graph a,  #header_yogamigo_graph a,  #header_gig_graph a,
+
+  a:visited { color: rgb(102, 0, 51);
+    text-decoration: none;}
+
+   
+
+
+
+    #header_yogamigo a:hover, #header_yogamigo_ditto a:hover, #header_yogamigo_vivor a:hover,   #header_yogamigo_graph 
+    
+    a:hover { color: rgb(237, 208, 126);}
+
+    #header_ditto a:hover, #header_ditto_vivor a:hover,  #header_ditto_yogamigo a:hover, #header_ditto_graph a:hover
+    { color: rgb(51, 172, 105); }
+
+    #header_vivor a:hover, #header_vivor_ditto a:hover, #header_vivor_yogamigo a:hover,   #header_vivor_graph a:hover
+ {color: rgb(134, 105, 192); }
+
+    #header_graph a:hover,  #header_graph_ditto a:hover, #header_graph_vivor a:hover, #header_graph_yogamigo a:hover
+  {color: rgb(86, 151, 209);}
+
+  #header_gig_ditto a:hover, #header_gig_vivor a:hover, #header_gig_yogamigo a:hover, #header_gig_graph a:hover { 
+    color: rgb(223, 111, 60);}
+
+
+
+ /* yogamigo starts in here */
+
+    .yogamigo_opening { 
+      width: 87%;
+      margin-top: 10%;
+      margin-left: 6%;
+          margin-right: 5%; position: absolute;
+          display: flex;
+          font-family: quicksand;}
+     
+
+   
+  
+     #yogamigofirstpic {
+      position: absolute;
+margin-top: 2%;
+width: 57%;
+          border-radius:10px;
+      margin-left: -2%;
+       float: right;
+  
+     }
+  
+     
+   
+  
+     #yogamigoname { 
+         
+      
+      font-size: 8rem;
+      color: rgb(237, 208, 126);
+      animation-name:colorchange_yogamigo;
+    animation-duration:2.2s;
+    animation-direction: normal;}
+  
+    @keyframes colorchange_yogamigo {
+      0% { color: rgba(218, 198, 189, 0.1);}
+      100% {color: rgb(237, 208, 126);}
+    
+    }
+  
+    .yogamigo_opening_exp { 
+        margin-top: 2%;
+      margin-right: 6%;
+      position: absolute;
+        font-size: 1.3rem;
+        width: 100%;
+        height: 50%;
+    }
+  
+  
+  #id201 {
+      margin-top: 2%;
+      margin-bottom: 1%;
+      
+  }
+  
+  .courseandyear {  
+      font-size: 1.1rem;
+  display: block;
+     }
+
+    
+
+.firstexp_yogamigo {  
+  position: absolute;
+  margin-top: 51%;
+  font-family: quicksand;
+  font-size: 1.1rem;
+  text-align: center;
+width: 100%
+;}
+
+
+
+.secexp_yogamigo
+{  
+  display: flex;
+ 
+  position: absolute;
+  margin-top: 65%;
+  font-family: quicksand;
+  font-size: 1.1rem;
+  
+
+;}
+
+.text_secexp_yogamigo { 
+margin-top: 3%;
+  margin-right: 0%;
+ height: 50%;
+ align-items: center;
+margin-left: 2%;
+  font-family: quicksand;
+  
+  
+  font-size: 1.1rem;
+
+}
+
+
+#yogamigosecpic {
+  width: 60%;
+  
+}
+
+#yogamigothirdpic { height:70%;
+  width: 60%;
+  margin-top: 15%;
+}
+
+.thirdexp_yogamigo {  
+  position: absolute;
+  margin-top: 82%;
+  display: flex;
+  ;}
+  
+  
+  .text_thirdexp_yogamigo{ 
+    top: 50%;
+    transform: translateY(60%);
+   height: 50%;
+   align-items: center;
+  width: 50%;
+    font-family: quicksand;
+    margin-top: 4%;
+    margin-right: 4%;
+    font-size: 1.1rem;
+  
+  
+  }
+  
+  .fourthexp_yogamigo { margin-left: 6%;
+    margin-right: 5%;  
+    display: flex;
+    position: absolute;
+    margin-top: 120%;
+    font-family: quicksand;
+    font-size: 1.1rem;
+
+  
+  ;}
+  
+#yogamigosfourthpic {
+  width: 60%;
+  
+}
+
+
+.text_fourthexp_yogamigo{ 
+  margin-top: 4%;
+    margin-right: 0%;
+    margin-left: 2%;
+   height: 50%;
+ 
+  margin-left: 2%;
+    font-family: quicksand;
+    font-size: 1.1rem;
+  
+  }
+
+
+
+  .footer_yogamigo{ position: absolute;
+    margin-top:145%;
+      width: 100%; height:10%; 
+      display: block;
+      text-align: center;
+      background-color:rgb(102, 0, 51, 0.9);
+      width: 100%;
+      font-family: quicksand; 
+      margin-right: 0%;
+      margin-left: 0%;
+       
+    }
+
+
+    .text_fourthexp_yogamigo ::selection, .text_thirdexp_yogamigo ::selection, .text_secexp_yogamigo ::selection, .firstexp_yogamigo ::selection,
+    .yogamigo_opening ::selection {
+    
+      background: rgb(237, 208, 126);
+    }
+    
+    /* yogamigo ends in here */
+
+
+
+
+
+    /* vivor starts in here */
+
+    .vivor_opening { 
+      margin-top: 10%;
+      margin-left: 6%;
+          margin-right: 5%; position: absolute;
+          display: flex;
+          font-family: quicksand;
+     
+  
+  }
+  
+     #vivorfirstpic { 
+         
+      height:100%;
+         width: 62%; 
+          border-radius:10px;
+          float: right;
+          margin-right: 12%;
+  
+  
+     }
+  
+     #vivorname { 
+         
+      
+      font-size: 10rem;
+      color: rgb(134, 105, 192);
+      animation-name:colorchange_vivor;
+    animation-duration:2.2s;
+    animation-direction: normal;}
+  
+    @keyframes colorchange_vivor {
+      0% { color: rgba(218, 198, 189, 0.1);}
+      100% { color: rgb(134, 105, 192);}
+    
+    }
+  
+    .vivor_opening_exp { 
+        
+      margin-right: 6%;
+      position: absolute;
+        font-size: 1.3rem;
+        width: 100%;
+        height: 50%;
+    }
+  
+  
+  #covid {
+      margin-top: 2%;
+      margin-bottom: 1%;
+      
+  }
+  
+  .courseandyear {  
+      font-size: 1.1rem;
+  display: block;
+     }
+
+
+
+     .vivor_expl { 
+      margin-right: 5%;
+      margin-left: 6%;
+      position: absolute;
+      margin-top: 55%;
+  ;}
+  
+
+
+      #vivorpic1  {height: 25%;
+      width:25%;
+  margin-left: 7%;
+ ;
+ }
+  
+      #vivorpic2  { 
+        height: 25%;
+          width:25%;
+          margin-left: 4%;
+        
+          }
+  
+          #vivorpic3  { 
+            height: 25%;
+              width:25%;
+              margin-left: 4%;
+              }
+  
+  
+   .vivor_explanation    {   text-align: center;
+       margin-top: 4%;
+      position: absolute;
+      font-size: 1.1rem;
+      font-family: quicksand;
+  ;}  
+  
+  
+  .vivor_explanation2    { 
+      text-align: center;
+      padding-left: 5%;
+      margin-top: 9%;
+     position: absolute;
+     font-size: 1.1rem;
+     font-family: quicksand;
+     width: 100%;
+  ;}  
+
+  .vivor_explanation3    { 
+    text-align: center;
+    padding-left: 5%;
+    margin-top: 12%;
+   position: absolute;
+   font-size: 1.1rem;
+   font-family: quicksand;
+   width: 100%;
+;} 
+  
+  
+  #exploded {
+      width: 100%;
+  }
+  
+
+
+#vivexplod { 
+  margin-top: 26%; width: 85%;
+ margin-left: 7%;
+
+}
+
+
+.footer_vivor { position: absolute;
+  margin-top:160%;
+    width: 100%; height:10%; 
+    display: block;
+    text-align: center;
+    background-color:rgb(102, 0, 51, 0.9);
+    width: 100%;
+    font-family: quicksand; 
+    margin-right: 0%;
+    margin-left: 0%;
+     
+  }
+
+  .vivor_explanation2 ::selection, .vivor_explanation ::selection, .vivor_explanation3 ::selection, .vivor_opening ::selection {
+  
+    background:  rgb(134, 105, 192);
+  }
+  
+ /* vivor ends in here */
+
+
+
+
+
+/* 
+        ditto starts in here */
+
+
+    .ditto_opening { 
+      width: 87%;
+      margin-top: 10%;
+      margin-left: 6%;
+          margin-right: 5%; position: absolute;
+          display: flex;
+          font-family: quicksand;
+     
+  
+  }
+  
+     #dittofirstpic { 
+         
+      height:100%;
+         width: 90%; 
+          border-radius:10px;
+        float: right;
+  
+  
+     }
+  
+     #dittoname { 
+         
+      
+      font-size: 10rem;
+      color: rgb(51, 172, 105);
+      animation-name:colorchange_ditto;
+    animation-duration:2.2s;
+    animation-direction: normal;}
+  
+    @keyframes colorchange_ditto {
+      0% { color: rgba(218, 198, 189, 0.1);}
+      100% {color: rgb(51, 172, 105);}
+    
+    }
+  
+    .ditto_opening_exp { 
+        
+      margin-right: 6%;
+      position: absolute;
+        font-size: 1.3rem;
+        width: 100%;
+        height: 50%;
+    }
+  
+  
+  #id201 {
+      margin-top: 2%;
+      margin-bottom: 1%;
+      
+  }
+  
+  .courseandyear {  
+      font-size: 1.1rem;
+  display: block;
+     }
+   
+
+.firstexp_ditto {   
+  margin-right: 6%;
+  margin-left: 6%;
+  position: absolute;
+  margin-top: 55%;
+  display: flex;
+;}
+
+
+.text_firstexp_ditto { 
+  top: 50%;
+  transform: translateY(40%);
+ height: 50%;
+ align-items: center;
+
+  font-family: quicksand;
+  margin-top: 4%;
+  margin-left: 4%;
+  font-size: 1.1rem;
+
+}
+
+
+
+.secondexp_ditto {  
+margin-right: 6%;
+margin-left: 6%;
+position: absolute;
+margin-top: 82%;
+display: flex;
+;}
+
+
+.text_secondexp_ditto{ 
+  top: 50%;
+  transform: translateY(60%);
+ height: 50%;
+ align-items: center;
+width: 50%;
+  font-family: quicksand;
+  margin-top: 4%;
+  margin-right: 4%;
+  font-size: 1.1rem;
+
+
+}
+
+
+
+.option1 {  
+  margin-right: 2%;
+  margin-left: 6%;
+  position: absolute;
+  margin-top: 110%;
+  display: flex;
+  font-family: quicksand;
+  font-size: 1.3rem;
+  ;}
+
+
+ .text_option1 {  width: 40%;
+  color: rgb(51, 172, 105); }
+
+#option1_1, #option1_2, #option1_3 { 
+  float: right; 
+  width: 28%;
+  height: 80%;
+  margin-right: 4%;
+}
+
+
+
+.option2 {  
+  margin-right: 2%;
+  margin-left: 6%;
+  position: absolute;
+  margin-top: 139%;
+  display: flex;
+  font-family: quicksand;
+  font-size: 1.3rem;
+  ;}
+
+
+ .text_option2 { 
+    width: 15%;
+  color: rgb(51, 172, 105); }
+
+#option2_1, #option2_2, #option2_3 { 
+  float: right; 
+  width: 29%;
+  height: 80%;
+  margin-right: 2%;
+}
+
+.option3 {  
+  margin-right: 2%;
+  margin-left: 6%;
+  position: absolute;
+  margin-top: 171%;
+  display: flex;
+  font-family: quicksand;
+  font-size: 1.3rem;
+  ;}
+
+
+ .text_option3 { 
+    width: 30%;
+  color: rgb(51, 172, 105); }
+
+#option3_1, #option3_2, #option3_3 { margin-top: -2%;
+  float: right; 
+  width: 29%;
+  height: 90%;
+  margin-right: 1%;
+}
+
+
+.footer_ditto { position: absolute;
+  margin-top:207%;
+    width: 100%; height:10%; 
+    display: block;
+    text-align: center;
+    background-color:rgb(102, 0, 51, 0.9);
+    width: 100%;
+    font-family: quicksand; 
+    margin-right: 0%;
+    margin-left: 0%;
+     
+  }
+
+  .ditto_opening ::selection, .firstexp_ditto ::selection, .secondexp_ditto ::selection, .options ::selection {
+  
+    background: rgb(51, 172, 105);
+  }
+
+
+/* 
+         ditto ends in here */
+
+
+
+
+/* 
+         gig starts in here */
+
+.gig_opening { 
+    margin-top: 10%;
+    margin-left: 6%;
+        margin-right: 5%; position: absolute;
+        display: flex;
+        font-family: quicksand;
+   
+
+}
+
+   #gigfirstpic { 
+       
+    height: 100%;
+       width: 85%; 
+        border-radius:10px;
+        float: right;
+
+
+   }
+
+   #gigname { 
+       
+    
+    font-size: 10rem;
+    color: rgb(223, 111, 60);
+    animation-name:colorchange;
+  animation-duration:2.2s;
+  animation-direction: normal;}
+
+  @keyframes colorchange {
+    0% { color: rgba(218, 198, 189, 0.1);}
+    100% { color: rgb(223, 111, 60);}
+  
+  }
+
+
+  .burger{display: none;}
+
+  .burger div {width: 40px;
+    height: 3px;
+  background-color:rgb(102, 0, 51);
+  margin-top: 7px;
+  border-radius: 20px;
+  margin-left:87%;
+  
+  }
+
+
+  @media only screen and (max-width: 768px) {
+
+    .navs li { margin-right: 0%;}
+    
+      .list{ 
+        position: absolute;
+        display: flex;
+        margin-left: 0;
+        flex-direction: column;
+       align-items: center;
+        height: 35vh;
+        width: 100%;
+        top: 7vh;
+        background-color: rgb(253, 251, 251);
+        box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+        transform: translateX(100%);
+        transition:transform 0.5s ease-in;
+       
+        }
+    
+        .burger{display: block;
+        cursor: pointer;}
+    
+      
+    .nav_active{transform: translateX(0%);}
+    
+    
+    
+    }
+
+
+
+  .gig_opening_exp { 
+      
+    margin-right: 6%;
+    position: absolute;
+      font-size: 1.3rem;
+      width: 100%;
+      height: 50%;
+  }
+
+
+#id430 {
+    margin-top: 2%;
+    margin-bottom: 1%;
+    
+}
+
+.courseandyear {  
+    font-size: 1.1rem;
+display: block;
+   }
+ 
+
+   .gig_pics {   
+    margin-right: 5%;
+    margin-left: 6%;
+    position: absolute;
+    margin-top: 800px;
+;}
+
+
+    #gigpic1  {height: 25%;
+    width:25%;
+margin-left: 7%;}
+
+    #gigpic2  {height: 25%;
+        width:25%;
+        margin-left: 7%;}
+
+        #gigpic3  {height: 25%;
+            width:25%;
+            margin-left: 7%}
+
+
+ .gig_explanation    {   text-align: center;
+     margin-top: 4%;
+    position: absolute;
+    font-size: 1.1rem;
+    font-family: quicksand;
+;}  
+
+
+.gig_explanation2    { 
+    text-align: center;
+    padding-left: 5%;
+    margin-top: 9%;
+   position: absolute;
+   font-size: 1.1rem;
+   font-family: quicksand;
+;}  
+
+
+.gig_exploded {
+margin-top: 21%
+;}
+
+#exploded {
+    width: 100%;
+}
+
+.gig_explanation2 ::selection, .gig_explanation ::selection, .gig_opening ::selection {
+  
+  background: rgb(251, 111, 60);
+}
+
+
+
+/* 
+         gig ends in here */
+
+
+
+
+
+         /* 
+         graph starts in here */
+
+         .graph_opening {
+          width: 87%;
+          margin-top: 10%;
+          margin-left: 6%;
+              margin-right: 5%; position: absolute;
+              display: flex;
+              font-family: quicksand;}
+         
+    
+       
+      
+         #graphfirstpic { 
+          position: absolute;
+    margin-top: 2%;
+    width: 40%;
+              border-radius:10px;
+         float: right;
+      margin-left: 12%;    
+      
+         }
+      
+         
+       
+      
+         #graphname { 
+             
+          
+          font-size: 8.5rem;
+          color: rgb(86, 151, 209);
+          animation-name:colorchange_graph;
+        animation-duration:2.2s;
+        animation-direction: normal;}
+      
+        @keyframes colorchange_graph {
+          0% { color: rgba(218, 198, 189, 0.1);}
+          100% {  color: rgb(86, 151, 209);}
+        
+        }
+      
+        .graph_opening_exp { 
+            margin-top: 2%;
+          margin-right: 6%;
+          position: absolute;
+            font-size: 1.3rem;
+            width: 100%;
+            height: 50%;
+        }
+      
+      
+      #id201 {
+          margin-top: 2%;
+          margin-bottom: 1%;
+          
+      }
+      
+      .courseandyear {  
+          font-size: 1.1rem;
+      display: block;
+         }
+    
+
+
+         .firstexp_graph {  color: rgb(86, 151, 209);
+          position: absolute;
+          margin-top: 55%;
+          font-family: quicksand;
+          font-size: 1.3rem;
+          width: 100%;
+        float: left;
+      margin-left: 6%;}
+        
+        
+        
+        .secexp_graph
+        {  
+align-items: center;
+          display: flex;
+        position: absolute;
+          margin-top: 60%;
+          font-family: quicksand;
+          font-size: 1.1rem;
+          
+        
+        ;}
+        
+      
+        
+        
+        #graphsecpic1 { margin-right: 15%;
+          margin-left: 7%;
+          width: 20%;
+          height: 20%;
+          
+        }
+
+          
+        #graphsecpic2 {float: right;
+          width: 50%;
+          height: 38%;
+          margin-right: 0%;
+        }
+
+
+        .thirdexp_graph { 
+          position: absolute;
+          margin-top: 104%;
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+          grid-gap:2%;
+          margin-left: 7%;
+          width: 85%;
+          height: 85%;
+          }
+
+          .pro{width:100%;}
+
+          #pro3, #pro4  {padding-top: 3%;}
+
+
+
+          .fourthexp_graph { 
+            
+            margin-left: 6%;
+            margin-right: 5%;  
+            display: flex;
+            position: absolute;
+            margin-top: 165%;
+            font-family: quicksand;
+            font-size: 1.3rem;
+        
+          
+          ;}
+          
+       
+        
+        
+        
+        
+
+          #theatretext{  
+            color: rgb(86, 151, 209);
+          margin-left: 7%;
+        width: 40%;
+            position: absolute;
+         
+            font-family: quicksand;
+            font-size: 1.3rem;
+          float: left;}
+          
+
+          #theatrepic{ 
+            margin-left: 17%;
+             margin-top: 8.6%;
+          width: 72%;
+            
+          }
+          
+
+          #albumtext{  
+            color: rgb(86, 151, 209);
+            position: absolute;
+            margin-left: 7.1%;
+            font-family: quicksand;
+            font-size: 1.3rem;
+            width: 40%;
+          float: left;}
+
+          #albumpic{ margin-left: 12%;
+            
+            margin-top: 6%;
+            width: 72%;
+            
+          }
+
+
+
+
+.psaposter{ 
+            
+  margin-left: 6%;
+  margin-right: 5%;  
+  
+  position: absolute;
+  margin-top: 218%;
+  font-family: quicksand;
+  font-size: 1.3rem;
+  color: rgb(86, 151, 209); 
+}
+
+#psatext {  
+  
+margin-left: 7%;
+width: 40%;
+}
+
+
+#theatrepic{ 
+  margin-left: 17%;
+   margin-top: 8.6%;
+width: 72%;
+  
+}
+
+#psapic{margin-left: 11%;
+            
+  margin-top: 2%;
+  width: 75%;
+
+
+
+}
+
+.wayfinding { 
+            
+  margin-left: 6%;
+  margin-right: 5%;  
+  
+  position: absolute;
+  margin-top: 270%;
+  font-family: quicksand;
+  }
+
+#wayfindingtext{  font-size: 1.3rem;
+  color: rgb(86, 151, 209);
+  
+  margin-left: 7%;
+  width: 40%;
+  }
+
+  .wayfinding_exp1{ margin-top: 4%;
+  display: flex;
+  font-size: 1.1rem;
+  margin-left: 6%;
+  margin-right: 6%; 
+  }
+
+.text_wayfinding_exp1 { margin-left: 4%;
+  align-items: center;
+
+transform: translateY(40%);}
+
+.wayfinding_pics1 {display: flex;
+  margin-left: 8%;
+  margin-right: 6%;
+margin-top:5%;}
+
+#tinmap { width: 40%;
+height: 40%;
+margin-right: 10%;}
+
+#tinplate { width: 40%;
+  height: 40%;
+margin-top:4%;}
+
+
+.wayfinding_floor{ margin-left: 6%;
+margin-right: 5%;  
+
+margin-top: 5%;
+font-family: quicksand;
+font-size: 1.1rem;}
+
+.wayfinding_floor_pics { 
+  
+  grid-template-columns: repeat(3,1fr);
+grid-gap:5%;
+
+margin-top: 3%;}
+
+#tinfloor1, #tinfloor2, #tinfloor3 { width: 25%;
+
+}
+
+#tinfloor2, #tinfloor3 {margin-left: 10%;}
+
+
+.wayfinding_surface{ margin-left: 6%;
+  margin-right: 5%;  
+  
+  margin-top: 5%;
+  font-family: quicksand;
+  font-size: 1.1rem;}
+  
+  .wayfinding_surface_pics { 
+    
+    grid-template-columns: repeat(3,1fr);
+  grid-gap:5%;
+  
+  margin-top: 3%;}
+  
+  #tinsurface1, #tinsurface2, #tinsurface3 { width: 25%;
+  
+  }
+  
+  #tinsurface2, #tinsurface3 {margin-left: 10%;}
+  
+  #tinsurface3 { margin-bottom: 7%;}
+
+  .highlight{ color: rgb(86, 151, 209);}
+
+
+  .footer_graph { position: absolute;
+    margin-top:385%;
+      width: 100%; height:10%; 
+      display: block;
+      text-align: center;
+      background-color:rgb(102, 0, 51, 0.9);
+      width: 100%;
+      font-family: quicksand; 
+      margin-right: 0%;
+      margin-left: 0%;
+       
+    }
+
+ /* 
+         graph ends in here */
+
+         
+
+
+.footer { position: absolute;
+    margin-top: 140%;
+      width: 100%; height:10%; 
+      display: block;
+      text-align: center;
+      background-color:rgb(102, 0, 51, 0.9);
+      width: 100%;
+      font-family: quicksand; 
+      margin-right: 0%;
+      margin-left: 0%;
+       
+    }
+
+
+    .footertext { font-size: 10px;
+
+        color: white;
+       display: block;
+       }
+     
+       #footername { font-size: 17px; 
+         margin-top: 1.2%;
+         margin-bottom: 0.2%;
+         }    
+         
